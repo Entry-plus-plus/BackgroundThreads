@@ -18,7 +18,7 @@ public class DBConnection {
         // MySQL connection string, pas zonodig het pad aan:
         String connection = "jdbc:mysql://localhost:3306/vb1?serverTimezone=UTC";
         String user = "root";
-        String password = "@U3RyC1everP@ss";
+        String password = "";
         try {
             Class.forName(driver);
             conn = DriverManager.getConnection(connection, user, password);
